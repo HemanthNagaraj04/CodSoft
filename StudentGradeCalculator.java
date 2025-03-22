@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class StudentGradeCalculator {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         System.out.print("Enter the number of subjects: ");
         int Number_of_Subjects = scanner.nextInt();
         int[] marks = new int[Number_of_Subjects];
